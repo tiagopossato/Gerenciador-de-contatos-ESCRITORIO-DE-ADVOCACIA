@@ -1,0 +1,23 @@
+.borda {
+    margin: 20px;
+}
+
+.bordaGeral {
+    margin: 10px;
+}
+
+.bordaMenu{
+    margin-left: 20px;
+    margin-right: 20px
+}
+
+.geral {
+    position: relative;
+    width: 100%;
+}
+
+
+textarea {
+    resize: none;
+    /*text-transform: uppercase;*/
+}
