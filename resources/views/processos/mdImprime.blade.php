@@ -11,115 +11,60 @@
                 <form action="api/processo/imprime" method="post"  id="formImprime">
                     {!! csrf_field() !!}
                     <div class="row">
-                    	<div class="col-xs-4 col-sm-4 col-md-4">
+                    	<div class="col-xs-6 col-sm-6 col-md-6">
                     		<button style="height: 41px; width: 100px;" type="submit" id="pos" name ="pos" value="1" >1</button>
                     	</div>
-                    	<div class="col-xs-4 col-sm-4 col-md-4">
+                    	<div class="col-xs-6 col-sm-6 col-md-6">
                     		<button style="height: 41px; width: 100px;" type="submit" id="pos" name ="pos" value="2" >2</button>
                     	</div>
-                    	<div class="col-xs-4 col-sm-4 col-md-4">
-                    		<button style="height: 41px; width: 100px;" type="submit" id="pos" name ="pos" value="3" >3</button>
-                    	</div>
                     </div>
                     <div class="row">
-                    	<div class="col-xs-4 col-sm-4 col-md-4">
+                      <div class="col-xs-6 col-sm-6 col-md-6">
+                        <button style="height: 41px; width: 100px;" type="submit" id="pos" name ="pos" value="3" >3</button>
+                      </div>
+                    	<div class="col-xs-6 col-sm-6 col-md-6">
                     		<button style="height: 41px; width: 100px;" type="submit" id="pos" name ="pos" value="4" >4</button>
                     	</div>
-                    	<div class="col-xs-4 col-sm-4 col-md-4">
-                    		<button style="height: 41px; width: 100px;" type="submit" id="pos" name ="pos" value="5" >5</button>
-                    	</div>
-                    	<div class="col-xs-4 col-sm-4 col-md-4">
-                    		<button style="height: 41px; width: 100px;" type="submit" id="pos" name ="pos" value="6" >6</button>
-                    	</div>
                     </div>
                     <div class="row">
-                    	<div class="col-xs-4 col-sm-4 col-md-4">
-                    		<button style="height: 41px; width: 100px;" type="submit" id="pos" name ="pos" value="7" >7</button>
-                    	</div>
-                    	<div class="col-xs-4 col-sm-4 col-md-4">
-                    		<button style="height: 41px; width: 100px;" type="submit" id="pos" name ="pos" value="8" >8</button>
-                    	</div>
-                    	<div class="col-xs-4 col-sm-4 col-md-4">
-                    		<button style="height: 41px; width: 100px;" type="submit" id="pos" name ="pos" value="9" >9</button>
-                    	</div>
+                      <div class="col-xs-6 col-sm-6 col-md-6">
+                        <button style="height: 41px; width: 100px;" type="submit" id="pos" name ="pos" value="5" >5</button>
+                      </div>
+                      <div class="col-xs-6 col-sm-6 col-md-6">
+                        <button style="height: 41px; width: 100px;" type="submit" id="pos" name ="pos" value="6" >6</button>
+                      </div>
                     </div>
                     <div class="row">
-                    	<div class="col-xs-4 col-sm-4 col-md-4">
-                    		<button style="height: 41px; width: 100px;" type="submit" id="pos" name ="pos" value="10" >10</button>
-                    	</div>
-                    	<div class="col-xs-4 col-sm-4 col-md-4">
-                    		<button style="height: 41px; width: 100px;" type="submit" id="pos" name ="pos" value="11" >11</button>
-                    	</div>
-                    	<div class="col-xs-4 col-sm-4 col-md-4">
-                    		<button style="height: 41px; width: 100px;" type="submit" id="pos" name ="pos" value="12" >12</button>
-                    	</div>
+                      <div class="col-xs-6 col-sm-6 col-md-6">
+                        <button style="height: 41px; width: 100px;" type="submit" id="pos" name ="pos" value="7" >7</button>
+                      </div>
+                      <div class="col-xs-6 col-sm-6 col-md-6">
+                        <button style="height: 41px; width: 100px;" type="submit" id="pos" name ="pos" value="8" >8</button>
+                      </div>
                     </div>
                     <div class="row">
-                    	<div class="col-xs-4 col-sm-4 col-md-4">
-                    		<button style="height: 41px; width: 100px;" type="submit" id="pos" name ="pos" value="13" >13</button>
-                    	</div>
-
-                    	<div class="col-xs-4 col-sm-4 col-md-4">
-                    		<button style="height: 41px; width: 100px;" type="submit" id="pos" name ="pos" value="14" >14</button>
-                    	</div>
-                    	<div class="col-xs-4 col-sm-4 col-md-4">
-                    		<button style="height: 41px; width: 100px;" type="submit" id="pos" name ="pos" value="15" >15</button>
-                    	</div>
+                      <div class="col-xs-6 col-sm-6 col-md-6">
+                        <button style="height: 41px; width: 100px;" type="submit" id="pos" name ="pos" value="9" >9</button>
+                      </div>
+                      <div class="col-xs-6 col-sm-6 col-md-6">
+                        <button style="height: 41px; width: 100px;" type="submit" id="pos" name ="pos" value="10" >10</button>
+                      </div>
                     </div>
                     <div class="row">
-                    	<div class="col-xs-4 col-sm-4 col-md-4">
-                    		<button style="height: 41px; width: 100px;" type="submit" id="pos" name ="pos" value="16" >16</button>
-                    	</div>
-                    	<div class="col-xs-4 col-sm-4 col-md-4">
-                    		<button style="height: 41px; width: 100px;" type="submit" id="pos" name ="pos" value="17" >17</button>
-                    	</div>
-                    	<div class="col-xs-4 col-sm-4 col-md-4">
-                    		<button style="height: 41px; width: 100px;" type="submit" id="pos" name ="pos" value="18" >18</button>
-                    	</div>
+                      <div class="col-xs-6 col-sm-6 col-md-6">
+                        <button style="height: 41px; width: 100px;" type="submit" id="pos" name ="pos" value="11" >11</button>
+                      </div>
+                      <div class="col-xs-6 col-sm-6 col-md-6">
+                        <button style="height: 41px; width: 100px;" type="submit" id="pos" name ="pos" value="12" >12</button>
+                      </div>
                     </div>
                     <div class="row">
-                    	<div class="col-xs-4 col-sm-4 col-md-4">
-                    		<button style="height: 41px; width: 100px;" type="submit" id="pos" name ="pos" value="19" >19</button>
-                    	</div>
-                    	<div class="col-xs-4 col-sm-4 col-md-4">
-                    		<button style="height: 41px; width: 100px;" type="submit" id="pos" name ="pos" value="20" >20</button>
-                    	</div>
-                    	<div class="col-xs-4 col-sm-4 col-md-4">
-                    		<button style="height: 41px; width: 100px;" type="submit" id="pos" name ="pos" value="21" >21</button>
-                    	</div>
-                    </div>
-                    <div class="row">
-                    	<div class="col-xs-4 col-sm-4 col-md-4">
-                    		<button style="height: 41px; width: 100px;" type="submit" id="pos" name ="pos" value="22" >22</button>
-                    	</div>
-                    	<div class="col-xs-4 col-sm-4 col-md-4">
-                    		<button style="height: 41px; width: 100px;" type="submit" id="pos" name ="pos" value="23" >23</button>
-                    	</div>
-                    	<div class="col-xs-4 col-sm-4 col-md-4">
-                    		<button style="height: 41px; width: 100px;" type="submit" id="pos" name ="pos" value="24" >24</button>
-                    	</div>
-                    </div>
-                    <div class="row">
-                    	<div class="col-xs-4 col-sm-4 col-md-4">
-                    		<button style="height: 41px; width: 100px;" type="submit" id="pos" name ="pos" value="25" >25</button>
-                    	</div>
-                    	<div class="col-xs-4 col-sm-4 col-md-4">
-                    		<button style="height: 41px; width: 100px;" type="submit" id="pos" name ="pos" value="26" >26</button>
-                    	</div>
-                    	<div class="col-xs-4 col-sm-4 col-md-4">
-                    		<button style="height: 41px; width: 100px;" type="submit" id="pos" name ="pos" value="27" >27</button>
-                    	</div>
-                    </div>
-                    <div class="row">
-                    	<div class="col-xs-4 col-sm-4 col-md-4">
-                    		<button style="height: 41px; width: 100px;" type="submit" id="pos" name ="pos" value="28" >28</button>
-                    	</div>
-                    	<div class="col-xs-4 col-sm-4 col-md-4">
-                    		<button style="height: 41px; width: 100px;" type="submit" id="pos" name ="pos" value="29" >29</button>
-                    	</div>
-                    	<div class="col-xs-4 col-sm-4 col-md-4">
-                    		<button style="height: 41px; width: 100px;" type="submit" id="pos" name ="pos" value="30" >30</button>
-                    	</div>
+                      <div class="col-xs-6 col-sm-6 col-md-6">
+                        <button style="height: 41px; width: 100px;" type="submit" id="pos" name ="pos" value="13" >13</button>
+                      </div>
+                      <div class="col-xs-6 col-sm-6 col-md-6">
+                        <button style="height: 41px; width: 100px;" type="submit" id="pos" name ="pos" value="14" >14</button>
+                      </div>
                     </div>
                 </form>
             </div>
