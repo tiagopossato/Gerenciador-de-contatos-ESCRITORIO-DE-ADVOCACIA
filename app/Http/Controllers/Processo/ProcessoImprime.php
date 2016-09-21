@@ -24,30 +24,30 @@ class ProcessoImprime extends Controller {
         switch ($posicao) {
             case 1:
                 $left = 3;
-                $top = 20;
+                $top = 21;
                 break;
             case 2:
-                $left = 109.6;
-                $top = 20;
+                $left = 112.6;
+                $top = 21;
                 break;
             case 3:
-                $left = 4;
+                $left = 3;
                 $top = 102;
                 break;
             case 4:
-                $left = 106;
-                $top = 102;
+                $left = 112.6;
+                $top = 21;
                 break;
             case 5:
-                $left = 4;
+                $left = 3;
                 $top = 194;
                 break;
             case 6:
-                $left = 106;
-                $top = 194;
+                $left = 112.6;
+                $top = 21;
                 break;
             default :
-                $left = 4;
+                $left = 3;
                 $top = 10;
                 break;
         }
@@ -70,11 +70,11 @@ class ProcessoImprime extends Controller {
 
         $html = '<style>html{margin: 0;padding: 0;border:0;}'.
                 '	body{margin-left:' . $left . 'mm;margin-top: ' . $top . 'mm;}'.
-                '	.etiqueta {border-style: solid;border-width: 1px;border-color: #000;width: 101mm;height: 33mm;margin: 0;padding: 0;}'.
+                '	.etiqueta {border-color: #000;width: 101mm;height: 33mm;margin: 0;padding: 0;}'.
                 '</style>'.
                 '<body><div class="etiqueta">'.
                 '		<div style="text-align: center;"><h1 style="margin: 0; padding: 0;">Pasta N<sup>o</sup>: ' . $proc['id'] . '</h1></div>'.
-                '		<hr>'.
+//                '		<hr>'.
                 '		<div style="text-align: left;"><b>Cliente:&nbsp;</b><span>' . $proc['cliente'] . '</span></div>'.
                 '	</div></body>';
         $pdf = App::make('dompdf.wrapper');
