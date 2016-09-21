@@ -32,23 +32,55 @@ class ProcessoImprime extends Controller {
                 break;
             case 3:
                 $left = 3;
-                $top = 102;
+                $top = 54;
                 break;
             case 4:
                 $left = 112.6;
-                $top = 21;
+                $top = 54;
                 break;
             case 5:
                 $left = 3;
-                $top = 194;
+                $top = 74;
                 break;
             case 6:
                 $left = 112.6;
-                $top = 21;
+                $top = 74;
+                break;
+            case 7:
+                $left = 3;
+                $top = 94;
+                break;
+            case 8:
+                $left = 112.6;
+                $top = 94;
+                break;
+            case 9:
+                $left = 3;
+                $top = 114;
+                break;
+            case 10:
+                $left = 112.6;
+                $top = 114;
+                break;
+            case 11:
+                $left = 3;
+                $top = 134;
+                break;
+            case 12:
+                $left = 112.6;
+                $top = 134;
+                break;
+            case 13:
+                $left = 3;
+                $top = 154;
+                break;
+            case 14:
+                $left = 112.6;
+                $top = 154;
                 break;
             default :
                 $left = 3;
-                $top = 10;
+                $top = 21;
                 break;
         }
         // $html = '<style>html{	margin: 0;	padding: 0;	border:0;}' . ///* HTML5 display-role reset for older browsers */article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {	display: block;}body {	line-height: 1;}ol, ul {	list-style: none;}blockquote, q {	quotes: none;}blockquote:before, blockquote:after,q:before, q:after {	content: \'\';	content: none;}</style>'.
@@ -70,10 +102,10 @@ class ProcessoImprime extends Controller {
 
         $html = '<style>html{margin: 0;padding: 0;border:0;}'.
                 '	body{margin-left:' . $left . 'mm;margin-top: ' . $top . 'mm;}'.
-                '	.etiqueta {border-color: #000;width: 101mm;height: 33mm;margin: 0;padding: 0;}'.
+                '	.etiqueta {width: 101mm;height: 33mm;margin: 0;padding: 0;}'.
                 '</style>'.
                 '<body><div class="etiqueta">'.
-                '		<div style="text-align: center;"><h1 style="margin: 0; padding: 0;">Pasta N<sup>o</sup>: ' . $proc['id'] . '</h1></div>'.
+                '		<div style="text-align: center;"><h1>Pasta N<sup>o</sup>: ' . $proc['id'] . '</h1></div>'.
 //                '		<hr>'.
                 '		<div style="text-align: left;"><b>Cliente:&nbsp;</b><span>' . $proc['cliente'] . '</span></div>'.
                 '	</div></body>';
